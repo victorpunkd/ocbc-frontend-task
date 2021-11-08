@@ -1,3 +1,9 @@
+# Run backend server first
+
+1. Please run the backend server first, by default it will run in localhost:8080, in this case you dont have to change the base path in .env file, but if it runs in some other path, please change the base path in .env file.
+2. After running the backend, you need to install npm packages in the project, for this use the command - `npm install`.
+3. Once the installation is successful, please run npm start to run the project.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
