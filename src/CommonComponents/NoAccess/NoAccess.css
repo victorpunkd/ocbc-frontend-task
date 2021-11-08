@@ -1,0 +1,18 @@
+.noAccessContainer {
+  position: relative;
+  height: 100vh;
+}
+
+.noAccessBody {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  text-align: center;
+}
+
+.warningText {
+  font-size: 25px;
+  font-weight: 500;
+}

@@ -1,0 +1,52 @@
+.dashboaedContainer {
+  width: 100%;
+}
+
+.dashboardPage {
+  height: 75vh;
+  overflow: scroll;
+  padding: 5% 0%;
+}
+
+.dashboardPage::-webkit-scrollbar {
+  display: none;
+}
+
+.summaryContainer {
+  border-radius: 15px;
+  background: #642b73; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #c6426e,
+    #642b73
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #c6426e,
+    #642b73
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  box-shadow: 0px 3px 5px 2px rgba(221, 84, 165, 0.4);
+  padding: 5% 5%;
+}
+
+.transactionsContainer {
+  border-top: 1px solid #c6426e;
+  margin-top: 5%;
+  padding: 5% 0%;
+}
+
+.transactionTableHeader {
+  margin-top: 5%;
+  display: flex;
+}
+
+.headerText {
+  flex: 1;
+  font-size: 20px;
+  font-weight: 700;
+  color: gray;
+}
+
+.footer {
+}

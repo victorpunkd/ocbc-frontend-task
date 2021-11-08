@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard snapshot renders 1`] = `
+<div
+  className="dashboaedContainer"
+>
+  <div
+    className="navBarContainer"
+  >
+    <div
+      className="logoutButton"
+      onClick={[Function]}
+    >
+      Logout
+    </div>
+  </div>
+  <div>
+    <div
+      aria-hidden={true}
+      className="MuiBackdrop-root css-1ji7omv-MuiBackdrop-root"
+      onClick={[Function]}
+      style={
+        Object {
+          "opacity": 0,
+          "visibility": "hidden",
+        }
+      }
+    >
+      <span
+        className="MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorInherit css-62e83j-MuiCircularProgress-root"
+        role="progressbar"
+        style={
+          Object {
+            "height": 40,
+            "width": 40,
+          }
+        }
+      >
+        <svg
+          className="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+          viewBox="22 22 44 44"
+        >
+          <circle
+            className="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-176wh8e-MuiCircularProgress-circle"
+            cx={44}
+            cy={44}
+            fill="none"
+            r={20.2}
+            strokeWidth={3.6}
+            style={Object {}}
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+  <div
+    className="dashboardPage"
+  >
+    <div
+      className="summaryContainer"
+    >
+      <div
+        style={
+          Object {
+            "fontWeight": 500,
+          }
+        }
+      >
+        You have
+      </div>
+      <div
+        style={
+          Object {
+            "fontSize": "25px",
+            "marginTop": "5%",
+          }
+        }
+      >
+        SGD
+         
+        <span
+          style={
+            Object {
+              "fontWeight": 700,
+            }
+          }
+        >
+          0
+        </span>
+      </div>
+      <div
+        style={
+          Object {
+            "fontWeight": 500,
+            "marginTop": "5%",
+          }
+        }
+      >
+        In your account
+      </div>
+    </div>
+    <div
+      className="transactionsContainer"
+    >
+      <div
+        style={
+          Object {
+            "color": "#dd54a5",
+            "fontWeight": 700,
+          }
+        }
+      >
+        Your activity
+      </div>
+      <div
+        className="transactionTableHeader"
+      >
+        <div
+          className="headerText"
+        >
+          Date
+        </div>
+        <div
+          className="headerText"
+        >
+          Description
+        </div>
+        <div
+          className="headerText"
+          style={
+            Object {
+              "textAlign": "right",
+            }
+          }
+        >
+          Amount
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="footer"
+  >
+    <button
+      className="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButtonBase-root makeStyles-buttonStyle-1 css-1fu7jd5-MuiButtonBase-root-MuiButton-root"
+      disabled={false}
+      id="makeTransferButton"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onContextMenu={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      Make a transfer
+      <span
+        className="MuiButton-endIcon MuiButton-iconSizeMedium css-9tj150-MuiButton-endIcon"
+      >
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+          data-testid="CompareArrowsIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M9.01 14H2v2h7.01v3L13 15l-3.99-4v3zm5.98-1v-3H22V8h-7.01V5L11 9l3.99 4z"
+          />
+        </svg>
+      </span>
+    </button>
+  </div>
+</div>
+`;

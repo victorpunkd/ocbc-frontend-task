@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBar snapshot renders 1`] = `
+<div
+  className="navBarContainer"
+>
+  <div
+    className="logoutButton"
+    onClick={[Function]}
+  >
+    Logout
+  </div>
+</div>
+`;

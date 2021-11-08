@@ -1,0 +1,14 @@
+.navBarContainer {
+  width: 100%;
+  text-align: right;
+  padding: 5% 0%;
+}
+
+.logoutButton {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.logoutButton:hover {
+  color: gray;
+}

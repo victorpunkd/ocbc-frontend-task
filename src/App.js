@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Login from "./Components/Login/Login";
+import Dashboard from "./Components/Dashboard/Dashboard";
+import MakeTransfer from "./Components/MakeTransfer/MakeTransfer";
+import NoAccess from "./CommonComponents/NoAccess/NoAccess";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="appContainer">
+        <Routes>
+          <Route path="/" exact element={<Login />}></Route>
+          <Route path="/dashboard" exact element={<Dashboard />}></Route>
+          <Route path="/make-transfer" exact element={<MakeTransfer />}></Route>
+          <Route path="/no-access" exact element={<NoAccess />}></Route>
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 

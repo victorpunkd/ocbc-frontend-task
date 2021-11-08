@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TransactionLine snapshot renders 1`] = `
+<div
+  className="transactionLineContainer"
+>
+  <div
+    className="date"
+    style={
+      Object {
+        "textAlign": "left",
+      }
+    }
+  />
+  <div
+    className="description"
+  >
+    No description
+  </div>
+  <div
+    className="amount false"
+  >
+    -undefined
+  </div>
+</div>
+`;

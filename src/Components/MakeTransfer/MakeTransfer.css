@@ -1,0 +1,36 @@
+.makeTransferContainer {
+  width: 100%;
+}
+
+.transferForm {
+  height: 75vh;
+  overflow: scroll;
+  padding: 5% 0%;
+  position: relative;
+}
+
+.transferForm::-webkit-scrollbar {
+  display: none;
+}
+
+.formCenter {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  text-align: center;
+}
+
+.formElement {
+  margin-top: 5%;
+}
+
+.footer {
+  display: flex;
+}
+
+.buttonHolder {
+  flex: 1;
+  padding: 0% 2%;
+}
